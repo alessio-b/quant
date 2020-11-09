@@ -1,21 +1,21 @@
-# A practical introduction to quantum computing: from qubits to quantum machine learning and beyond
-[Lesson 1](https://indico.cern.ch/event/970903/)  
-[Lesson 2](https://indico.cern.ch/event/970904/)  
-[Lesson 3](https://indico.cern.ch/event/970905/)  
-[Lesson 4](https://indico.cern.ch/event/970906/)  
-[Lesson 5](https://indico.cern.ch/event/970907/)  
-[Lesson 6](https://indico.cern.ch/event/970908/)  
-[Lesson 7](https://indico.cern.ch/event/970909/)  
+<h1>A practical introduction to quantum computing: from qubits to quantum machine learning and beyond</h1>
+<a href="https://indico.cern.ch/event/970903/" target="_blank">Lesson 1</a>
+<a href="https://indico.cern.ch/event/970904/" target="_blank">Lesson 2</a>
+<a href="https://indico.cern.ch/event/970905/" target="_blank">Lesson 3</a>
+<a href="https://indico.cern.ch/event/970906/" target="_blank">Lesson 4</a>
+<a href="https://indico.cern.ch/event/970907/" target="_blank">Lesson 5</a> 
+<a href="https://indico.cern.ch/event/970908/" target="_blank">Lesson 6</a>    
+<a href="https://indico.cern.ch/event/970909/" target="_blank">Lesson 7</a>
 
-## Links
-**Quadratic Constrained Binary Optimization Problems**  
-[IBM Quantum Computing](http://quantum-computing.ibm.com)
+<h2> Links </h2>
+<p><strong>Quadratic Constrained Binary Optimization Problems<strong></p>
+<a href="http://quantum-computing.ibm.com" target="_blank">IBM Quantum Computing</a>
 
-**General Quantum Computing Algorithms**  
-[Quirk Quantum Simulator](http://algassert.com/quirk)  
-[D-Wave Quantum Computing](https://dwavesys.com/take-leap)
+<p><strong>General Quantum Computing Algorithms<strong></p>
+<a href="http://algassert.com/quirk" target="_blank">Quirk Quantum Simulator</a>
+<a href="https://dwavesys.com/take-leap" target="_blank">D-Wave Quantum Computing</a>
 
-## Quantum Computing Lesson #1 - CERN
-[PowerPoint](https://indico.cern.ch/event/970903/attachments/2136822/3599305/PIQC%20Lecture%201.pdf)
+<h2>Quantum Computing Lesson #1 - CERN </h2>
+<a href="https://indico.cern.ch/event/970903/attachments/2136822/3599305/PIQC%20Lecture%201.pdf" target="_blank">PowerPoint</a>
 
-### 1 QBit Systems
+<h3>1 QBit Systems</h3>
