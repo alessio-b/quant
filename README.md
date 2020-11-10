@@ -54,9 +54,10 @@ It's the simplest way to graph or analyze systems.
 
 #### Data - Qubit
 The Data in Quantum Circuits is represented by Qubits.
-Other than normal Bits, which can store a value of either 1 or 0, a Qubit can store an infinite variation of values.
-Basically, it's a percentage of 0 and 1, it could be 60% 1 and 40% 0
-![Imgur](https://i.imgur.com/VVIk613.png =100x)
+Other than normal Bits, which can store a value of either 1 or 0, a Qubit can store an infinite variation of values.  
+Basically, it's a percentage of 0 and 1, it could be 60% 1 and 40% 0  
+![Imgur](https://i.imgur.com/VVIk613.png)  
+
 *Image Credits: [ScienceMag](https://www.sciencemag.org/news/2020/07/biggest-flipping-challenge-quantum-computing)*
 
 #### Operations
