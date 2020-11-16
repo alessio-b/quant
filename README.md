@@ -1,27 +1,18 @@
-# A practical introduction to quantum computing: from qubits to quantum machine learning and beyond
-### Lessons
-[Lesson 1](https://indico.cern.ch/event/970903/)  
-[Lesson 2](https://indico.cern.ch/event/970904/)  
-[Lesson 3](https://indico.cern.ch/event/970905/)  
-[Lesson 4](https://indico.cern.ch/event/970906/)  
-[Lesson 5](https://indico.cern.ch/event/970907/)  
-[Lesson 6](https://indico.cern.ch/event/970908/)  
-[Lesson 7](https://indico.cern.ch/event/970909/)  
+# An introduction to Quantum Computing
+## Introduction  
+In Here i will Journal my Exploration into The World of Quantum Computing.
+
+### Sources
+[Quantum Computing for Computer Scientists](https://www.cambridge.org/core/books/quantum-computing-for-computer-scientists/8AEA723BEE5CC9F5C03FDD4BA850C711)  
+[CERN: Online introductory lectures on quantum computing ](https://home.cern/news/announcement/computing/online-introductory-lectures-quantum-computing-6-november)
 
 ### Tools
-**Quadratic Constrained Binary Optimization Problems**  
-[IBM Quantum Computing](http://quantum-computing.ibm.com)
-
-**General Quantum Computing Algorithms**  
+[IBM Quantum Computing](http://quantum-computing.ibm.com)  
 [Quirk Quantum Simulator](http://algassert.com/quirk)  
 [D-Wave Quantum Computing](https://dwavesys.com/take-leap)
 
-<br>
-
-# Quantum Computing Lesson #1 - CERN
-[PowerPoint](https://indico.cern.ch/event/970903/attachments/2136822/3599305/PIQC%20Lecture%201.pdf)
-
-## Part I: Introduction
+## Part I: Basics
+Based on [**A practical introduction to quantum computing (1/7)**](https://indico.cern.ch/event/970903/)
 
 ### What is Quantum Computing
 > Quantum computing is a computing paradigm that exploits Quantum mechanical properties (superposition, entanglement, interference...) of matter in order to do calculation
@@ -49,38 +40,57 @@ They differ in how they compute, but the outcome is always equal.
 The most common Model in use is the Quantum Circuits Model of Computation.  
 So that's the one we're going to use.
 
+### What are Complex Numbers
+Complex numbers started of as a Thought Experiment.
+`i = √−1`
+
 ### What are Quantum Circuits
 Every Computation has 3 Elements, which may also be known under the [IPO model](https://en.wikipedia.org/wiki/IPO_model).<br>
 It's the simplest way to graph or analyze systems.
 
 #### Data - Qubit
 The Data in Quantum Circuits is represented by Qubits.
-Other than normal Bits, which can store a value of either 1 or 0, a Qubit can store a Value of 0 or 1 or **Both**.  Or in Mathematical Terms It's a [Vector](https://youtu.be/ozwodzD5bJM)
+Other than normal Bits, which can store a value of either 1 or 0, a Qubit can store a Value of 0 or 1 or **Both**.  Or in Mathematical Terms It's a [Vector](https://youtu.be/ozwodzD5bJM)  
 Means that the Qubit could be in the Position of 0 and 1 at the same time.
 > > > > **Phase?!**
 
-![Imgur](https://i.imgur.com/VVIk613.png)  
+![Bloch Sphere](https://i.imgur.com/VVIk613.png)  
 
-The Image shown is a Blocj Sphere, it is a visual representation of a Single Qubit.  
-*Image Credits: [ScienceMag](https://www.sciencemag.org/news/2020/07/biggest-flipping-challenge-quantum-computing)*
+The Image shown is a Bloch Sphere, it is a visual representation of a Single Qubit.  
+*Image Credits: [ScienceMag](https://www.sciencemag.org/news/2020/07/biggest-flipping-challenge-quantum-computing)*  
+
+Mathematicaly Qubits are in a Vector space: 
+
+`|0> y |1> `  
+`|ψ> =  α|0> + β|1>`
 
 #### Operations
 The Operations in Quantum Circuits is represented by [Quantum Gates](https://youtu.be/gz5rjhiU4ao)  
-Different Gates do different things.
+other than Normal Computations, Quantum Gates always have an inverse operation.
 
-Hadamar Gate: 50/50 Probability
+Hadamar Gate:   
+![Hadamar Gate](https://i.imgur.com/QU8Hu9a.png)  
+![Hadamar Plus and Minus](https://i.imgur.com/4jasD5a.png)  
 Pauli Gates: 
 	x --> Inverts X
 	y --> Inverts Y
 	z --> Inverts Z
 Phase Gate: 
 
+X gate --> Not
+Z Gate --> turns 1 into -1
+
 #### Results
 The Results in Quantum Circuits is represented by Measurements
-Unlike normal computations can have multiple results 
+But when measuring the state of the Qubit we:
+1. Get either a 0 or a 1
+2. We Change the State of the System, we lock the Qubit to an absolute value.
 
-When measuring --> destroy data
-NON Copyable
+The Probability of getting 0 wil be `|α|²`  
+The Probability of getting 1 wil be `|β|²`
 
 ## Part II: One-Qubit Systems
+
+![One-Quibit Matrix](https://i.imgur.com/KdmYYmG.png)
+
 
