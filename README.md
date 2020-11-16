@@ -31,16 +31,17 @@ But the difference is that in a Quantum Computer **only** use these Quantum mech
 
 As many think Quantum Computers are just faster Computers.  
 This is **not** the Case, Quantum Computers or *Quantum Turing Machines* work differently from Normal Computers or *Turing Machines*.  
+Thats why they're not faster, they're more efficent.
 
 [Turing Machines](https://youtu.be/gJQTFhkhwPA) are Conceptual Models of the physical Computers.
 Unlike the *Turing Machines*, *Quantum Turing Machines* have qubits, which can't only be in the state of 0 or 1.  
 Instead Qubits could be in the Superposition, which allows them to represent a one or a zero at the same time.  
-But in the End, everything that a Quantum Computer can calculate can be calculated by a Normal one (given enough time).  
+But in the End, everything that a Quantum Computer can calculate can be calculated by a Normal Computer (given enough time).  
 
 ### Computing Methods for Quantum Computers
 To create a program for a Quantum Computer there are multiple Models available.
 They differ in how they compute, but the outcome is always equal.
-* Quantum Turing m!achines
+* Quantum Turing machines
 * Quantum circuits
 * Measurement based quantum computing (MBQC)
 * Adiabatic quantum computing
@@ -54,15 +55,25 @@ It's the simplest way to graph or analyze systems.
 
 #### Data - Qubit
 The Data in Quantum Circuits is represented by Qubits.
-Other than normal Bits, which can store a value of either 1 or 0, a Qubit can store an infinite variation of values.  
-Basically, it's a percentage of 0 and 1, it could be 60% 1 and 40% 0  
+Other than normal Bits, which can store a value of either 1 or 0, a Qubit can store a Value of 0 or 1 or **Both**.  Or in Mathematical Terms It's a [Vector](https://youtu.be/ozwodzD5bJM)
+Means that the Qubit could be in the Position of 0 and 1 at the same time.
+> > > > **Phase?!**
+
 ![Imgur](https://i.imgur.com/VVIk613.png)  
 
+The Image shown is a Blocj Sphere, it is a visual representation of a Single Qubit.  
 *Image Credits: [ScienceMag](https://www.sciencemag.org/news/2020/07/biggest-flipping-challenge-quantum-computing)*
 
 #### Operations
-The Operations in Quantum Circuits is represented by Quantum Gates
+The Operations in Quantum Circuits is represented by [Quantum Gates](https://youtu.be/gz5rjhiU4ao)  
 Different Gates do different things.
+
+Hadamar Gate: 50/50 Probability
+Pauli Gates: 
+	x --> Inverts X
+	y --> Inverts Y
+	z --> Inverts Z
+Phase Gate: 
 
 #### Results
 The Results in Quantum Circuits is represented by Measurements
